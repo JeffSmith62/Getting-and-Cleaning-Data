@@ -5,6 +5,7 @@
       # Load needed packages
 library("dplyr")
 library("plyr")
+library("reshape2")
 
 if(!file.exists("data")) {
       dir.create("data")
